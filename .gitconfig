@@ -2,7 +2,7 @@
 	name = Cong Luan Tran
 	email = congluan.tran19@gmail.com
 [core]
-	editor = vim
+	editor = nvim
 [init]
 	defaultBranch = main
 
