@@ -1,0 +1,85 @@
+@import url("mocha.css");
+
+* {
+  font-family: Maple Mono NF;
+  font-size: 12px;
+  min-height: 0;
+}
+
+#waybar {
+  background: @surface0;
+  color: @text;
+}
+
+#workspaces {
+  background-color: @surface0;
+  margin-left: 1rem;
+}
+
+#workspaces button {
+  color: @lavender;
+  padding: 0.4rem;
+}
+
+#workspaces button.active {
+  color: @sky;
+}
+
+#workspaces button:hover {
+  color: @sapphire;
+}
+
+#custom-music,
+#tray,
+#backlight,
+#clock,
+#battery,
+#wireplumber,
+#custom-lock,
+#window,
+#custom-power,
+#network,
+#memory,
+#power-profiles-daemon,
+#cpu,
+#custom-notification {
+  background-color: @surface0;
+  padding: 0rem 1rem;
+}
+
+#cpu {
+  color: @green;
+}
+
+#memory {
+  color: @peach;
+}
+
+#power-profiles-daemon {
+  color: @yellow;
+}
+
+#clock {
+  color: @blue;
+}
+
+#network {
+  color: @teal;
+}
+
+#wireplumber {
+  color: @maroon;
+}
+
+#custom-music {
+  color: @mauve;
+}
+
+#custom-lock {
+  color: @lavender;
+}
+
+#custom-power {
+  color: @red;
+  margin-right: 1rem;
+}
